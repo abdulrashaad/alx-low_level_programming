@@ -7,10 +7,10 @@ int main(void)
 {
 	char letter;
 
-	letter = 'b';
+	letter = 'a';
 
 	while
-		(letter <= 'x') {
+		(letter <= 'z') {
 			putchar(letter);
 			letter++;
 		}
