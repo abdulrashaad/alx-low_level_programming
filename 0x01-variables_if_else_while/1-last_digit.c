@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * A program that assign random number to n
- * Return: Always retun 0  Passed
+ * main - Entry point
+ * Return: return 0 (success)
  */
 
-/* Main - Entry point and no arguement*/
+
 int main(void)
 
 {
