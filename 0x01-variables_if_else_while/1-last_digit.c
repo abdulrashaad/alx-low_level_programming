@@ -3,10 +3,10 @@
 #include <stdio.h>
 /**
  * A program that assign random number to n
- * Main - Entry point
  * Return: Always retun 0  Passed
  */
 
+/* Main - Entry point and no arguement*/
 int main(void)
 
 {
@@ -18,7 +18,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
 
-	printf("last digit of %d is %d and is ", n, x);
+	printf("Last digit of %d is %d and is ", n, x);
 	if (x > 5)
 		printf("greater than 5\n");
 	else if (x == 0)
