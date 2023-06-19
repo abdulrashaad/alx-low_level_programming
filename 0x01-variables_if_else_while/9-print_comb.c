@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(numbers + '0');
 
-		if (numbers != 9)
+		if (numbers < 9)
 		{
 			putchar(',');
 			putchar(' ');
@@ -22,7 +22,6 @@ int main(void)
 		numbers++;
 	}
 	putchar('$');
-	putchar(' ');
 	return (0);
 }
 
