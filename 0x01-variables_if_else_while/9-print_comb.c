@@ -14,14 +14,14 @@ int main(void)
 	{
 		putchar(numbers + '0');
 
-		if (numbers < 9)
+		if (numbers != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 		numbers++;
 	}
-	putchar('$');
+	putchar(' ');
 	return (0);
 }
 
