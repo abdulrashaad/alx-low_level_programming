@@ -7,14 +7,22 @@
 
 int main(void)
 {
-	putchar('0');
+	int numbers = 0;
 
-	for (int l = 1; l <= 9; l++)
+	while (numbers < 10)
+
 	{
-		putchar(',');
-		putchar(' ');
-		putchar(l + '0');
+		putchar(numbers + '0');
+
+		if (numbers != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		numbers++;
 	}
-	putchar('\n');
+	putchar('$');
+	putchar(' ');
 	return (0);
 }
+
