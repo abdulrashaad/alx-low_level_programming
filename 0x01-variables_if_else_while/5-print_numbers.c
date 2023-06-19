@@ -2,18 +2,18 @@
 
 /**
  * main - Point of entry
- * Return: return 0 Passed
+ * Return: return 0 passed
  */
 
 int main(void)
 {
-	int n  = 0;
+	int x = 0;
 
-	while (n <= 9)
+	while (x <= 9)
 	{
-		printf("%d", n);
+		putchar(x + '0');
+		x++;
 	}
-
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
