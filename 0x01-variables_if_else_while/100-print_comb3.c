@@ -9,15 +9,16 @@ int main(void)
 {
 	int a;
 
-	putchar('0');
-	putchar('1');
-
 	a = 1;
 
 	while (a <= 89)
+
 	{
-		putchar(',');
-		putchar(' ');
+		if (a > 0)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		putchar(a / 10 + '0');
 		putchar(a % 10 + '0');
 		a++;
