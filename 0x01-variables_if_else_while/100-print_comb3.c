@@ -7,20 +7,27 @@
 
 int main(void)
 {
-	int a;
+	int a, b;
 
-	a = 1;
+	a = 0;
 
-	while (a <= 89)
+	while (a <= 8)
 
 	{
-		if (a > 0)
+		b = a + 1;
+
+		while (b <= 9)
+		{
+
+		if (a > 0 || b > 1)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		putchar(a / 10 + '0');
-		putchar(a % 10 + '0');
+		putchar(a + '0');
+		putchar(b + '0');
+		b++;
+	}
 		a++;
 	}
 	putchar('\n');
