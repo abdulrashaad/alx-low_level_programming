@@ -1,26 +1,26 @@
 #include <stdio.h>
+
 /**
  * main - Point of entry
- * Return: return 0 passed
+ * Return: return 0 (Passed)
  */
 int main(void)
 {
-	char letter;
+	char a = 'a';
 
-	letter = 'a';
+	char b = 'A';
 
-	letter = 'A';
+	if (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
 
-	while
-		(letter <= 'z') {
-			putchar(letter);
-			letter++;
-		}
-	while
-		(letter <= 'Z') {
-			putchar(letter);
-			letter++;
-		}
+	if (b <= 'A')
+	{
+		putchar(b);
+		b++;
+	}
 	putchar('\n');
 	return (0);
 }
