@@ -23,6 +23,7 @@ void rev_string(char *s)
 		s[x] = s[haru];
 		s[haru] = rev;
 	}
+	_putchar('\n');
 }
 
 
