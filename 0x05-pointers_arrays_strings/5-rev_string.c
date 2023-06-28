@@ -9,19 +9,19 @@ void rev_string(char *s)
 {
 	char rev = s[0];
 
-	int haru = 0;
+	int counter = 0;
 
-	int x;
+	int i;
 
-	while (s[haru] != '\n')
-		haru++;
-	for (x = 0; x < haru; x++)
+	while (s[counter] != '\n')
+		counter++;
+	for (i = 0; i < counter; i++)
 
 	{
-		haru--;
-		rev = s[x];
-		s[x] = s[haru];
-		s[haru] = rev;
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
 	_putchar('\n');
 }
