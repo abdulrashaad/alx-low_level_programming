@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - entry point
- * Return: 0
+ * Return - 0
  */
 
 int main(void)
@@ -13,9 +12,9 @@ int main(void)
 
 	int *p;
 
-	x[2] = 1024;
+	a[2] = 1024;
 
-	z = &x;
+	p = &n;
 
 	/*
 	 * write your code of line here...
