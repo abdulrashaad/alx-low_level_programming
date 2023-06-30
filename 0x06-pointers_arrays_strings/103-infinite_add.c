@@ -23,9 +23,6 @@ void rev_string(char *n)
 	{
 		temp = *(n + y);
 		*(n + y) = *(n + x);
-		*(n + x) = temp;
-	}
-}
-
+		*(n + x) =
 /**
  *
