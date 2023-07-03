@@ -2,20 +2,20 @@
 
 /**
  * print_chessboard - point of entry
- * @a: array
- * Return: return always 0 (passed)
+ * @a:array
+ * Return: return 0
  */
 
-void print_chessboard(char [8])
+void print_chessboard(char (*a)[8])
 {
-	int i;
+	int x;
 
-	int j;
+	int y;
 
-	for (i = 0; i < 8; i++)
+	for (x = 0; x < 8; x++)
 	{
-		for (j = 0; j < 8; j++)
-
+		for (y = 0; y < 8; y++)
+			_putchar(a[x][y]);
 		_putchar('\n');
 	}
 }
