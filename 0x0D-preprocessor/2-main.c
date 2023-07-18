@@ -6,11 +6,6 @@
  */
 int main(void)
 {
-	int r;
-
-	r = 2;
-
-	if (r < 2)
 	printf("%s\n", __FILE__);
 	return (0);
 }
