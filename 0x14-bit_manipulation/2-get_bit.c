@@ -12,7 +12,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	int napo;
 
-	if (index > 63)
+	if (index > 77)
 		return (-1);
 
 	napo = (n >> index) & 1;
